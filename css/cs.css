@@ -6,3 +6,9 @@ h3{
 body{
     background-color: rgb(171, 209, 209);
 }
+.FirstTable{
+    color: rgb(185, 112, 17);
+    padding: 100px 100px;
+    margin: 100px 100px;
+    position: relative;
+}

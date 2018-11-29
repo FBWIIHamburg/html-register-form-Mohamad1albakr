@@ -9,9 +9,9 @@
     <script src="main.js"></script>
 </head>
 <body>
-<h3><p>please fill the form to apply for your new job</p></h3>
+<h3><p>Please fill the form to apply for your new job</p></h3>
 
-<table>
+<div class="FirstTable"><table>
 
     <tr>
             <td>First Name: </td>
@@ -21,7 +21,12 @@
             <td>Last Name: </td>
             <td><input type="text"></td>
     </tr>
-     <tr>
+    <tr>
+                <td>Date of Birth: </td>
+                <td><input type="date"></td>
+                
+    </tr>
+    <tr>
             <td>Email: </td>
             <td><input type="email"></td>
      </tr>
@@ -29,18 +34,17 @@
              <td>telephone:</td>
              <td><input type="tel"></td>
     </tr>
-    <tr>
-            <td>Your photo</td>
-            <td><input type="file" name="" accept="image/*"></td>
-   </tr
-
    <tr>
                         <td>Gender: </td>
                         <td><input type="radio"name= "Gender">male</td>
                         <td><input type="radio"name= "Gender">female</td>
                 </tr>
                 <tr>
-                        <td>How many hours you like to work: </td>
+                                <td>Your photo</td>
+                                <td><input type="file" name="" accept="image/*"></td>
+                 </tr>
+                <tr>
+                        <td>How many hours you plan to work: </td>
                         <td><select>
                                 <option> 8 Hours</option>
                                 <option> 9 Hours</option>
@@ -48,16 +52,38 @@
                                 <option> 12 Hours</option>
                         
                         
-                        </select>
+                </select>
                         
                 </tr>
+                <tr>
+                                <td>Street: </td>
+                                <td><input type="text"></td>
+                     </tr>
+                         <tr>
+                                <td>city: </td>
+                                <td><input type="text"></td>
+                         </tr>
+                         <tr>
+                                 <td> PIN Code</td>
+                                 <td><input type="number" max="99999"></td>
+                         </tr>
                  <tr>
-               </tr
-               <tr><td>  <input type="Submit" value="Submit" name="">      </td>
-                       </tr>
-            
-            </table>
-
+                         <td>Country: </td>
+                                <td> <select>
+                                        <option> Germany </option>
+                                        <option> Sweden</option>
+                                        <option> Denmark </option>
+                                        <option> Syria </option>
+                                        <option> Finland</option>
+                                        <option> Norway</option>
+                                        <option> Poland</option>
+                                
+                </select></td>
+                </tr>
+                <tr><td>  <input type="Submit" value="Submit" name="">      </td>
+                </tr>
+               </table>
+        </div>
 
 
 
