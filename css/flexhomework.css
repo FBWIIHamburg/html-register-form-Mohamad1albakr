@@ -1,0 +1,51 @@
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.nav{
+    display:flex;
+    background-color: blueviolet;
+    height: 100vh;
+    flex: 20%;
+    flex-wrap: wrap;
+}
+.main1{
+    display: flex;
+    background-color: green;
+    height: 100vh;
+    flex: 80%;
+    flex-wrap: wrap;
+
+}
+
+.head{
+   flex: 100%;
+    height: 20vh;
+    display: flex;
+    background-color: aquamarine;
+
+}
+.footer{
+    flex: 100%;
+     height: 20vh;
+     display: flex;
+     background-color: aquamarine;
+ 
+ }
+ .rightside{
+flex: 3;
+height:60vh;
+background-color: blueviolet;
+
+
+ }
+ .leftside{
+    flex: 1;
+    height:60vh;
+    background-color: rgb(37, 48, 97);
+
+
+ }

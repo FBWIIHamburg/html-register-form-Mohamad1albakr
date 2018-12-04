@@ -1,0 +1,50 @@
+.container{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.nav{
+    float: left;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 20%;
+}
+.main1{
+    float: left;
+    background-color: green;
+    height: 100vh;
+    width: 80%;
+}
+.head{
+    float: left;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    background-color: rgb(233, 96, 96);
+
+}
+.footer{
+    float: left;
+     width: 100%;
+     height: 20vh;
+     display: flex;
+     background-color: aquamarine;
+ 
+}
+ .rightside{
+    float: left;
+    width: 70%;
+    height:60vh;
+   background-color: blueviolet;
+
+
+ }
+.leftside{
+    float: left;
+    width: 30%;
+    height:60vh;
+    background-color:sandybrown;
+
+
+ }
